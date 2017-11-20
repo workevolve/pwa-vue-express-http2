@@ -16,8 +16,8 @@ module.exports = {
   https: {
     port: 8443,
     options: {
-      key: fs.readFileSync(path.resolve(process.cwd(), 'build/certs/localhost.key')),
-      cert: fs.readFileSync(path.resolve(process.cwd(), 'build/certs/localhost.crt')) /*,
+      key: fs.readFileSync(path.resolve(process.cwd(), 'build/certs/server.key')),
+      cert: fs.readFileSync(path.resolve(process.cwd(), 'build/certs/server.crt')) /*,
       requestCert: false,
       rejectUnauthorized: false */
     }
